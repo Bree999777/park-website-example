@@ -1,0 +1,172 @@
+/* Heading */
+#topimage {
+	background-image: url("images/topimage.jpg");
+	background-size: cover;
+	background-position: 75% 25%;
+	padding: .5em;
+	color:#FFFFFF;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 4em;
+	position:relative;
+
+}
+
+/* Main Content Basic */
+
+body {
+
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	display:flex;
+	flex-direction:column;
+	background-color:  #fff5ee ;
+	color:#36454f;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	line-height: 1.6;
+}
+
+
+
+h2, h4 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:2em;
+	color:#83520F;
+    text-align: center;
+}
+
+
+
+h1 {
+
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:5em;
+	color:#83520F;
+	text-align:center;
+}
+
+
+
+/* Navigation Bar */
+
+
+#menue ul {
+
+list-style: none;
+padding: 0px;
+
+}
+
+#navimage {
+	max-height: 50px;
+	max-width: 100px;
+}
+
+ul {
+		list-style:none;
+	
+		background-color:#402504;
+		font-style:none;
+		overflow:hidden;
+		display:flex;
+		flex-flow:row wrap;
+		margin: 0px;
+		justify-content: space-around;
+		margin-right:0px;
+	}
+
+li {
+	font-size:1.2em;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    padding:.3em;
+
+		text-align:center;
+		xxflex-grow:1;    
+}
+
+li a {
+    text-decoration: none;
+  
+}
+
+#navlink:hover {
+	color: orange;
+}
+
+/*Gallery*/
+
+.row {
+    display: -ms-flexbox; 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 .4em;
+    margin-top:0px;
+}
+
+
+.column {
+    -ms-flex: 23%;
+    flex: 23%;
+    max-width: 23%;
+    padding: 0 .4em;
+    margin-bottom:1em;
+}
+
+.column img {
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.gallery:hover{
+	box-shadow: 3px 1px #83520F;
+}
+
+/* Footer */
+
+footer {
+	background-image: url("images/footerImage.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+	position:relative;
+}
+
+.contact {
+	color: #BAD7F0;
+	padding: 1em;
+	color:#BAD7F0;
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 2em;
+	position:relative;
+}
+
+#footertext {
+	color:#BAD7F0;
+	padding: 1.5em;
+	
+}
+
+.icons {
+	padding: 1em;
+	border-radius: 25px;
+	float:right;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 45%;
+        flex: 45%;
+        max-width: 45%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
